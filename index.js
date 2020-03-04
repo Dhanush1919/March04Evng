@@ -1,5 +1,3 @@
-var x1=10;
-var x2=5;
 function add(x1,x2)
 {
   const a=x1+x2;
@@ -30,5 +28,18 @@ function exp(x1,x2)
   const f=x1**x2;
   return f;
 }
+let a=add(10,5)
+console.log(a);
+let b=sub(10,5)
+console.log(b);
+let c=mul(9,8)
+console.log(c);
+let d=div(12,3)
+console.log(d);
+let e=mod(11,2)
+console.log(e);
+let f=exp(5,3)
+console.log(f);
+
 
 
