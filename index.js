@@ -142,19 +142,35 @@ console.log(Res);
 
 //Vowels
 //Output
- let arr=['a','e','i','o','u'];
 function vowel(a)
 {
-  if(a in arr)
+  if(a=='a')
   {
-    return 'true';
+    return 'Vowel';
+  }
+  else if(a=='e')
+  {
+    return 'Vowel';
+  }
+  else if(a=='i')
+  {
+    return 'Vowel';
+  }
+  else if(a=='o')
+  {
+    return 'Vowel';
+  }
+  else if(a=='u')
+  {
+    return 'Vowel';
   }
   else
   {
-    return 'false';
+    return 'NotaVowel';
   }
+
 }
-let vow=vowel('b')
+let vow=vowel('a')
 console.log(vow);
 
 //PRIME Numbers
