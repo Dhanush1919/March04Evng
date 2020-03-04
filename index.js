@@ -90,4 +90,38 @@ function comparevalues(a,b)
 let cmpn1=comparevalues(5,6);
 console.log(cmpn1);
 
+//Grade Finder 
+function Gradefinder(a)
+{
+  if(a>=90)
+  {
+    return 'S Grade';
+  }
+  else if(a>=80)
+  {
+    return 'A Grade';
+  }
+  else if(a>=70)
+  {
+    return 'B Grade';
+  }
+  else if(a>=60)
+  {
+    return 'C Grade';
+  }
+  else if(a>=50)
+  {
+    return 'D Grade';
+  }
+  else if(a>=40)
+  {
+    return 'E Grade';
+  }
+}
+let Res=Gradefinder(85);
+console.log(Res);
+//Output:A Grade
+
+
+
 
