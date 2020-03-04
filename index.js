@@ -141,7 +141,7 @@ let Res=Gradefinder(85);
 console.log(Res);
 
 //Vowels
-//Output
+//Output:Vowel
 function vowel(a)
 {
   if(a=='a')
