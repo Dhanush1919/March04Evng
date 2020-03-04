@@ -40,6 +40,54 @@ let e=mod(11,2)
 console.log(e);
 let f=exp(5,3)
 console.log(f);
+ 
+function compare(a,b)
+{
+if(a==b)
+{
+  return true;
+}  
+else
+{
+  return false;
+}
+}
+let cmp=compare('Dhanush','Dhanush')
+console.log(cmp);
 
+function comparenum(a,b)
+{
+  if(a==b)
+  {
+    return true;
+  }
+  else
+  {
+    return false;
+  }
+}
+let cmpn=comparenum(12,13);
+console.log(cmpn);
+
+function comparevalues(a,b)
+{
+  if(typeof a==typeof b)
+  {
+    if(a==b)
+    {
+    return true;
+    }
+    else
+    {
+      return false;
+    }
+  }
+  else
+  {
+    return false;
+  }
+}
+let cmpn1=comparevalues(5,6);
+console.log(cmpn1);
 
 
