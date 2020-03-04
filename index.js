@@ -109,6 +109,7 @@ let cmpn1=comparevalues(5,6);
 console.log(cmpn1);
 
 //Grade Finder 
+//Output:A Grade
 function Gradefinder(a)
 {
   if(a>=90)
@@ -138,7 +139,49 @@ function Gradefinder(a)
 }
 let Res=Gradefinder(85);
 console.log(Res);
-//Output:A Grade
+
+//Vowels
+//Output
+ let arr=['a','e','i','o','u'];
+function vowel(a)
+{
+  if(a in arr)
+  {
+    return 'true';
+  }
+  else
+  {
+    return 'false';
+  }
+}
+let vow=vowel('b')
+console.log(vow);
+
+//PRIME Numbers
+//Output:Yes
+function prime(a)
+{
+var count=0;
+var i=1;
+for(i=1;i<=a;i++)
+{
+  if(a%i==0)
+  {
+    count++;
+  }
+}
+if(count==2)
+{
+  return 'Yes';
+}
+else
+{
+  return 'No';
+}
+count=0;
+}
+let prno=prime(7)
+console.log(prno);
 
 
 
