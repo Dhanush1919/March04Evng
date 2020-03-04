@@ -105,7 +105,7 @@ function comparevalues(a,b)
     return false;
   }
 }
-let cmpn1=comparevalues(5,6);
+let cmpn1=comparevalues(5,'5');
 console.log(cmpn1);
 
 //Grade Finder 
